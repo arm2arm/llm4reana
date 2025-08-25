@@ -1,0 +1,7 @@
+streamlit
+crewai
+langchain-community
+pandas
+matplotlib
+seaborn
+numpy

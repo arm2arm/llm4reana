@@ -1,0 +1,14 @@
+version: "0.7"
+inputs:
+  files:
+    - sin.py
+workflow:
+  type: serial
+  specification:
+    steps:
+      - environment: 'gitlab-p4n.aip.de:5005/p4nreana/reana-env:py311-astro-ml.7b1165ce'
+        commands:
+          - python sin.py
+outputs:
+  files:
+    - sine_wave_red.png
