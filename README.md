@@ -144,3 +144,13 @@ To run the REANA client with the provided `reana.yaml` configuration:
    ```
    docker run -it --env REANA_SERVER_URL=https://reana-p4n.aip.de --env REANA_ACCESS_TOKEN=xxxx --volume $(pwd):/data reana-client reana-client run -f reana.yaml
    ```
+
+# Screenshots on CrewAI UI and console
+Processing user request step by step by agents:
+![Process](img/process.png)
+
+The final results are stored in mdx format
+![Done](img/done.png)
+
+UI with streamlit can view and keep history of the queries, you can also download the md file:
+![st-ui](img/streamlit-ui.png)
